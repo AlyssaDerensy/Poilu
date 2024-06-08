@@ -75,6 +75,10 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import power_bi from '../assets/svg/skills/power_bi.svg'
+
+import knime from '../assets/svg/skills/knime.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +231,10 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'Power bi' :
+            return power_bi;
+        case 'Knime' :
+            return knime;
         default:
             break;
     }
